@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IC Repair Design Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Yeseva+One&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">IC Repair Design Project</a>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <nav>
+                    <ul class="nav-list" id="navList">
+                        <li><a href="#home" class="active">Главная</a></li>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#request">Заявка</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                <a href="tel:+74951234567" class="phone-link">+7 (495) 123-45-67</a>
+                
+                <button class="request-btn">Заказать звонок</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Ремонт квартир в <span>Москве</span></h1>
+                <p>Полный комплекс ремонтных услуг от дизайна интерьера до финишной отделки. Работаем с любыми типами помещений, используем качественные материалы и современные технологии.</p>
+                <div class="hero-btns">
+                    <button class="request-btn">Рассчитать стоимость</button>
+                    <button class="secondary-btn">Отправить заявку</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Завершенные проекты</h2>
+            
+            <div class="projects-content">
+                <div class="projects-info">
+                    <ul class="project-tabs">
+                        <li><button class="active-tab">Москва</button></li>
+                        <li><button>Сочи</button></li>
+                        <li><button>Ростов-на-Дону</button></li>
+                    </ul>
+                    
+                    <div class="project-details">
+                        <h3>Апартаменты в бизнес-центре «Москва-Сити»</h3>
+                        <p>Полная реконструкция апартаментов площадью 85 м² в современном стиле с элементами лофта. В проекте использованы натуральные материалы: дуб, камень, металл. Установлена умная система управления освещением и климатом.</p>
+                        
+                        <div class="details-grid">
+                            <div class="detail-item">
+                                <h4>Площадь:</h4>
+                                <p>85 м²</p>
+                            </div>
+                            <div class="detail-item">
+                                <h4>Срок ремонта:</h4>
+                                <p>4 месяца</p>
+                            </div>
+                            <div class="detail-item">
+                                <h4>Стоимость:</h4>
+                                <p>2 350 000 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-controls">
+                        <div class="gallery-nav">
+                            <button class="nav-arrow"><i class="fas fa-chevron-left"></i></button>
+                            <div class="gallery-dots">
+                                <div class="dot active"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <button class="nav-arrow"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projects-gallery">
+                    <img src= "img/image 2.1.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-header">
+                <h2>Наши услуги</h2>
+                <p>Мы предлагаем полный спектр услуг по ремонту и отделке помещений любой сложности. От черновой отделки до дизайнерского ремонта под ключ.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller fa-2x"></i>
+                    </div>
+                    <h3>Ремонт квартир</h3>
+                    <p>Комплексный ремонт квартир от черновой отделки до дизайнерского ремонта под ключ. Гарантия качества и соблюдение сроков.</p>
+                    <div class="service-price">от 4 500 ₽/м²</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home fa-2x"></i>
+                    </div>
+                    <h3>Ремонт домов</h3>
+                    <p>Капитальный ремонт загородных домов и коттеджей. Включает все виды работ: от фундамента до кровли.</p>
+                    <div class="service-price">от 6 000 ₽/м²</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building fa-2x"></i>
+                    </div>
+                    <h3>Ремонт офисов</h3>
+                    <p>Создание современных и функциональных офисных пространств, соответствующих требованиям бизнеса.</p>
+                    <div class="service-price">от 5 000 ₽/м²</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Request Section -->
+    <section class="request-section" id="request">
+        <div class="container">
+            <div class="request-form-container">
+                <h2 class="section-title">Оставить заявку</h2>
+                <p>Оставьте свои контакты, и наш менеджер свяжется с вами в течение 30 минут для уточнения деталей и расчета стоимости работ.</p>
+                
+                <form id="requestForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" class="form-control" placeholder="Как к вам обращаться?" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" class="form-control" rows="4" placeholder="Опишите вашу задачу..."></textarea>
+                    </div>
+                    
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="agree" required>
+                        <label for="agree">Я согласен на обработку персональных данных</label>
+                    </div>
+                    
+                    <div class="submit-btn">
+                        <button type="submit" class="request-btn">Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacts">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">IC Repair Design Project</a>
+                
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                
+                <a href="tel:+74951234567" class="footer-phone">+7 (495) 123-45-67</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navList = document.getElementById('navList');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navList.classList.toggle('active');
+            mobileMenuBtn.innerHTML = navList.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Close mobile menu when clicking on a link
+        const navLinks = document.querySelectorAll('.nav-list a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navList.classList.remove('active');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        
+        // Project tabs functionality
+        const tabButtons = document.querySelectorAll('.project-tabs button');
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all tabs
+                tabButtons.forEach(btn => {
+                    btn.classList.remove('active-tab');
+                });
+                
+                // Add active class to clicked tab
+                button.classList.add('active-tab');
+                
+                // In a real project, here would be code to update project details and image
+            });
+        });
+        
+        // Gallery dots functionality
+        const dots = document.querySelectorAll('.dot');
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                // Remove active class from all dots
+                dots.forEach(d => {
+                    d.classList.remove('active');
+                });
+                
+                // Add active class to clicked dot
+                dot.classList.add('active');
+                
+                // In a real project, here would be code to change the gallery image
+            });
+        });
+        
+        // Form submission
+        const requestForm = document.getElementById('requestForm');
+        requestForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Get form data
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const message = document.getElementById('message').value;
+            
+            // In a real project, here would be code to send data to the server
+            alert(`Спасибо, ${name}! Ваша заявка принята. Мы свяжемся с вами по телефону ${phone} в ближайшее время.`);
+            
+            // Reset form
+            requestForm.reset();
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            // Close mobile menu on resize to desktop
+            if (window.innerWidth > 768) {
+                navList.classList.remove('active');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            }
+        });
+    </script>
+</body>
+</html>
